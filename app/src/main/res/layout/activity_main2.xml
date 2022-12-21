@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_food_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/tv_food"
+                android:textColor="#829143"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="342dp"
+                android:layout_height="237dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="#F5F7EC"
+                android:padding="10dp"
+                android:text="@string/illustrate"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/fir"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow"
+                    tools:ignore="TextContrastCheck" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+                        <RadioButton
+                            android:id="@+id/rbt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/sec"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt6"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt7"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt8"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:layout_width="365dp"
+                    android:layout_height="270dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/thi"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="115dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt9"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt10"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt11"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt12"
+                            android:layout_width="280dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="365dp"
+                    android:layout_height="270dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/four"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="120dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt13"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt14"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt15"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt16"
+                            android:layout_width="280dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="365dp"
+                    android:layout_height="270dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/five"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="115dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt17"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt18"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt19"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt20"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/six"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt21"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt22"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt23"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt24"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/seven"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt25"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt26"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt27"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt28"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/eight"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt29"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt30"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt31"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt32"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/nine"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt33"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt34"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt35"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt36"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/ten"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt37"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt38"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt39"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt40"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F4F4F4"
+                    android:padding="20dp"
+                    android:text="@string/elev"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt41"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt42"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt43"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt44"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="365dp"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#F2F2F2"
+                    android:padding="20dp"
+                    android:text="@string/twe"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+
+                    tools:background="@drawable/shadow2" />
+
+                <LinearLayout
+                    android:layout_width="295dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="90dp"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/rbt45"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/always"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt46"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/often"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt47"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/sometimes"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/rbt48"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttom"
+                            android:button="@android:color/transparent"
+                            android:elevation="4dp"
+                            android:paddingTop="-50dp"
+                            android:text="@string/few"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:backgroundTint="@null"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="365dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
+                android:background="#829140"
+                android:paddingTop="2dp"
+                android:text="@string/submit"
+                app:backgroundTint="@null"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
